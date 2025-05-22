@@ -1,0 +1,41 @@
+{
+    "Simulation":{
+        "frequency": 62.5,
+        "nominal_gyro_bias": [0.0060, 0.0037, 0.0069],
+        "gravity": [0,0,9.8],
+        "accNoiseDensity": 0.002,
+        "gyroNoiseDensity": 1e-4,
+        "magNoiseDensity": 0.005,
+        "num_datasets": 30
+    },
+    "ML":{
+        "init_pose": [0,1,0,0],
+        "init_pose_uncertainty": 0.01,
+        "init_acc_bias": [0,0,0],
+        "init_gyro_bias": [0.01,0.01,0.01]
+
+    },
+    "EKF":{
+        "m0_noise_std": 0.5,
+        "g0_noise_std": 7e-4,
+        "gyro_bias_noise_std": 1e-4,
+        "acc_bias_noise_std": 1e-5,
+        "init_gyro_bias": [0.01,0.01,0.01],
+        "init_gyro_bias_std": 0.01,
+        "init_acc_bias": [0,0,0],
+        "init_acc_bias_std": 0.5,
+        "init_S_std": 0.1,
+        "init_h_std": 1,
+        "init_m0_std": 2,
+        "init_g0_std": 1,
+        "ANIS": 0
+    },
+    "compute_covariance": true,
+    "minAcc": 9.6,
+    "maxAcc": 10.4,
+    "dip_angle": 72,
+    "downsample_rate": 3,
+    "num_padding_samples": 100,
+    "intrisic_calib_samples": 200,
+    "alignment_interval": 0.5
+}
