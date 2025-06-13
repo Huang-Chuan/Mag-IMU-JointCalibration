@@ -1,4 +1,6 @@
-[submodule "MAINSvsMAGEKF"]
-	path = MAINSvsMAGEKF
-	url = https://github.com/Huang-Chuan/MAINSvsMAGEKF
-	branch = calibration
+[submodule "MAINS"]
+	path = MAINS
+	url = https://github.com/Huang-Chuan/MAINS.git
+[submodule "MagnetometerArrayData_230601"]
+	path = MagnetometerArrayData_230601
+	url = https://github.com/Huang-Chuan/MagnetometerArrayData_230601.git
