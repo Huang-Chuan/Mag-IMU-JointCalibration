@@ -6,7 +6,7 @@ This is a MATLAB implementation of the paper [Joint Magnetometer-IMU Calibration
 
 ## Install
 ```
-git clone --recurse-submodules https://github.com/Huang-Chuan/MAINSvsMAGEKF.git
+git clone --recurse-submodules https://github.com/Huang-Chuan/Mag-IMU-JointCalibration.git
 ```
 
 ## Usage
